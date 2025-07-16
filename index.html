@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Moodtune</title>
+  <link rel="stylesheet" href="css/index.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <h1>Moodtune</h1>
+    <p>Your AI Mood-Based Music Companion</p>
+  </header>
+
+  <main class="layout">
+    <div class="center-circle" onclick="location.href='camera.html'">
+      <div class="music-icon">🎧</div>
+      <div class="circle-text">Listen Music Based on Mood</div>
+      <audio id="musicPlayer" src="songs/happy.mp3"></audio>
+    </div>
+
+    <div class="option" id="happy"> </div>
+    <div class="option" id="surprised"></div>
+    <div class="option" id="sad"></div>
+    <div class="option" id="angry"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
